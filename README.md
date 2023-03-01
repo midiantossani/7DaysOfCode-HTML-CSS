@@ -2,6 +2,8 @@
 
 Desafio de desenvolver uma página de vagas
 
+[Acesse o projeto aqui](https://midiantossani.github.io/7DaysOfCode-HTML-CSS/)
+
 ## Tecnologias usadas:
 
 - HTML5
@@ -13,3 +15,5 @@ Desafio de desenvolver uma página de vagas
 
 - JavaScript
 - Responsividade
+
+
