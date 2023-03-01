@@ -1,0 +1,277 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&display=swap');
+
+
+:root {
+    --text-color: #667085;
+    --main-color: #8e2424;
+    --title-color: #101828;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+  }
+
+body {
+    width: 100%;
+    height: 100vh;
+   
+}
+
+h1, h2 {
+    color: var(--title-color);
+}
+
+p {
+    color: var(--text-color);
+}
+  
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem 0;
+}
+
+.header-nav {
+    display: flex;
+    padding: 1rem 0;
+}
+
+.header-nav a {
+    color: var(--text-color);
+    margin-right: 2rem;
+}
+
+.header-nav-buttons {
+    display: flex;
+    gap: 10px;
+   
+}
+
+button {
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    background: none;
+    color: var(--text-color);
+    font-size: 0.9rem;
+}
+
+.header-button-cadastrar {
+    background-color: var(--main-color);
+    color: #fff; 
+}
+
+.main-section {
+    padding: 4.5em 1rem;
+    padding-bottom: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+span {
+    color: var(--main-color);
+    font-weight: bold;
+    
+}
+
+.main-section-p {
+    text-align: center;
+    color: var(--text-color);
+    line-height: 1.5em;
+    
+ 
+}
+
+.main-section-h1 {
+    color: var(--title-color);
+    font-size: 2.3rem;
+    padding-bottom: 1%;
+}
+
+.metricas-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 3rem;
+    padding: 0 8rem;
+}
+
+.metrica {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-bottom: 20vh;
+   
+}
+
+
+.metrica h2 {
+    font-size: 3rem;
+    color: var(--main-color);
+}
+
+.metrica  h3 {
+    font-size: 0.9rem;
+   
+}
+
+.metrica  p {
+    font-size: 90%;
+    color: var(--text-color);
+    line-height: 140%;
+}
+
+.vagas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+
+}
+
+.vagas-talentos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+    
+}
+
+.vagas span {
+    color: var(--main-color);
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.vagas-talentos > p {
+    color: var(--text-color);
+}
+
+section.vagas-abertas {
+    display: flex;
+    flex-direction: column;
+    margin: 5em 0em 0em 15em;
+    
+}
+
+section.vagas-abertas > h1 {
+    font-size: 1rem;
+    color: var(--title-color);
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    
+}
+
+div.vaga {
+    padding: 1rem;
+    border: 1px solid #EAECF0;
+    border-radius: 0.5rem;
+    max-width: 50%;
+    margin-bottom: 1rem;
+    color: var(--title-color);
+}
+
+div.vaga > span.titulo-vaga {
+    color: var(--title-color);
+    font-size: 0.9rem;
+    
+    
+}
+
+div.informacoes {
+    margin-top: 1rem;
+    display: flex;
+    gap: 2rem;
+}
+
+
+div.vaga > div.informacoes > span {
+    font-size: 0.8rem;
+    color: var(--text-color);
+    
+   
+}
+
+section.depoimentos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 70%;
+    margin: 8rem auto;
+    background-color: rgba(195, 25, 25, 0.05);
+    padding: 3rem 2rem;
+       
+}
+
+div.dp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+div.dp > div {
+    margin-bottom: 1rem;
+}
+
+div.imagem-depo > img {
+    margin-bottom: 1rem;
+}
+
+div.imagem-depo > p{
+    color: var(--text-color);
+    padding: 0.2rem;
+}
+
+footer {
+    background: #F9FAFB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 4rem 1rem 8rem 1rem;
+}
+
+div.oport > h2, p {
+    margin-bottom: 1rem;
+}
+
+div.form > form > input  {
+    padding: 0.7rem;
+    border: 1px solid #D0D5DD;
+    border-radius: 0.5rem;
+    outline: none;
+    width: 18rem;
+   
+   
+}
+
+div.form > form {
+    display: flex;
+    justify-content: space-around;
+}
+
+div.form > form > button {
+    background-color: var(--main-color);
+    color: #fff;
+    cursor: pointer;
+}
+
+footer > span#span-footer {
+    color: #98A2B3;
+    font-size: 0.8rem;
+    padding-top: 2rem;
+}
